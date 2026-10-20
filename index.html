@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Mukkara Padma Teja - CSE Undergraduate at Vardhaman College of Engineering, Hyderabad. Applied AI/ML, IoT, and Full-Stack Developer.">
+  <meta name="author" content="Mukkara Padma Teja">
+  <title>Padma Teja. | CSE Undergraduate & Developer</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        Teja<span class="dot">.</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#coding-profiles" class="nav-link">Coding</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-icon-btn" aria-label="Toggle Theme" title="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="#contact" class="btn btn-pill-purple nav-cta-btn">Let's Talk</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section (Matches Reference Screenshot) -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <!-- Left Hero Content -->
+        <div class="hero-left">
+          <div class="hero-intro">
+            <h1 class="hero-title">
+              Hi, I'm <span class="purple-highlight">Padma Teja</span>
+            </h1>
+            <h2 class="hero-subtitle">
+              CSE Undergraduate &bull; <span class="typing-role" id="typingRole">Vibe Coder & Builder</span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-bio">
+              Computer Science & Engineering student at <strong>Vardhaman College of Engineering</strong>. 
+              I build functional websites and apps through <strong>vibe coding</strong> while actively mastering core <strong>C programming</strong> and CS foundations.
+            </p>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-btn-group">
+            <a href="#contact" class="btn btn-pill-purple">Hire Me</a>
+            <a href="#projects" class="btn btn-pill-outline">See Projects</a>
+          </div>
+
+          <!-- Bottom-Left Circular Social Buttons -->
+          <div class="hero-social-circles">
+            <a href="https://www.linkedin.com/in/mukkarapadmateja/" target="_blank" rel="noopener noreferrer" class="social-circle" title="LinkedIn">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://github.com/MUKKARAPADMATEJA" target="_blank" rel="noopener noreferrer" class="social-circle" title="GitHub">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://leetcode.com/u/M_Padmateja2009/" target="_blank" rel="noopener noreferrer" class="social-circle" title="LeetCode">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 4.818 3.551 5.93 5.93 0 0 0 2.217-.184 5.98 5.98 0 0 0 2.016-.863l6.099-4.838a1.374 1.374 0 0 0-.856-2.454H9.426l4.908-5.263a1.374 1.374 0 0 0-.851-2.316z"/></svg>
+            </a>
+            <a href="mailto:mukkarapadmateja28@gmail.com" class="social-circle" title="Email Me">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+            <a href="https://wa.me/919063996713" target="_blank" rel="noopener noreferrer" class="social-circle" title="WhatsApp">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.888 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.456 5.711 1.457h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Hero Portrait Image (Styled exactly as reference) -->
+        <div class="hero-right">
+          <div class="portrait-container">
+            <div class="portrait-backdrop-glow"></div>
+            <div class="portrait-image-wrapper">
+              <img id="heroImage" src="profile.png" alt="Mukkara Padma Teja Portrait" onerror="this.onerror=null; this.src='profile_fallback.svg';" class="hero-portrait-img">
+            </div>
+            
+            <!-- Floating Tag -->
+            <div class="floating-badge badge-top-right">
+              <span class="badge-check">✓</span>
+              <span>Available for Roles</span>
+            </div>
+
+            <!-- Floating Tag -->
+            <div class="floating-badge badge-bottom-left">
+              <span class="badge-num">7+</span>
+              <span>Open Source Repos</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Key Stats Strip -->
+    <section class="stats-strip">
+      <div class="container stats-flex">
+        <div class="stat-box">
+          <span class="stat-number">CSE</span>
+          <span class="stat-desc">Undergraduate Student</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-box">
+          <span class="stat-number">7+</span>
+          <span class="stat-desc">Active Repositories</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-box">
+          <span class="stat-number">6+</span>
+          <span class="stat-desc">Competitive Profiles</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-box">
+          <span class="stat-number">B.Tech</span>
+          <span class="stat-desc">Vardhaman College</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="sub-label">Who I Am</span>
+          <h2 class="main-title">About Me</h2>
+          <div class="purple-bar"></div>
+        </div>
+
+        <div class="about-content-row">
+          <div class="about-desc-col">
+            <p class="about-lead">
+              I am a <strong>Computer Science & Engineering student</strong> at 
+              <strong>Vardhaman College of Engineering, Hyderabad</strong>.
+            </p>
+            <p>
+              My passion lies in <strong>Vibe Coding</strong>—leveraging modern AI capabilities to rapidly 
+              design, build, and deploy functional websites, interactive user interfaces, and digital products. 
+              From conceptual idea to live hosted applications, I move fast and turn concepts into reality.
+            </p>
+            <p>
+              Simultaneously, I believe in building deep computer science foundations. I am actively 
+              learning <strong>C programming</strong> at Vardhaman College of Engineering, focusing on 
+              algorithmic thinking, memory understanding, and core problem-solving.
+            </p>
+
+            <div class="about-card-grid">
+              <div class="about-mini-card">
+                <div class="mini-card-icon">⚡</div>
+                <h4>Vibe Coding & Building</h4>
+                <p>AI-assisted web and app prototyping from prompt to product</p>
+              </div>
+              <div class="about-mini-card">
+                <div class="mini-card-icon">💻</div>
+                <h4>C Programming in Progress</h4>
+                <p>Foundational syntax, control structures, and problem-solving</p>
+              </div>
+              <div class="about-mini-card">
+                <div class="mini-card-icon">🌐</div>
+                <h4>Web & Deployment</h4>
+                <p>Responsive design, modern CSS, and instant Vercel hosting</p>
+              </div>
+              <div class="about-mini-card">
+                <div class="mini-card-icon">🔌</div>
+                <h4>IoT Exploration</h4>
+                <p>Arduino Uno hardware and Tinkercad circuit simulation</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-details-col">
+            <div class="details-card">
+              <h3>Academic Profile</h3>
+              <ul class="details-list">
+                <li>
+                  <span class="d-label">Full Name</span>
+                  <span class="d-value">Mukkara Padma Teja</span>
+                </li>
+                <li>
+                  <span class="d-label">College</span>
+                  <span class="d-value">Vardhaman College of Engineering</span>
+                </li>
+                <li>
+                  <span class="d-label">Department</span>
+                  <span class="d-value">Computer Science & Engineering</span>
+                </li>
+                <li>
+                  <span class="d-label">Location</span>
+                  <span class="d-value">Hyderabad, Telangana, India</span>
+                </li>
+                <li>
+                  <span class="d-label">Email</span>
+                  <span class="d-value"><a href="mailto:mukkarapadmateja28@gmail.com">mukkarapadmateja28@gmail.com</a></span>
+                </li>
+                <li>
+                  <span class="d-label">Phone</span>
+                  <span class="d-value"><a href="tel:+919063996713">+91 9063996713</a></span>
+                </li>
+              </ul>
+              <div class="details-cta">
+                <a href="#contact" class="btn btn-pill-purple btn-full">Get In Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="sub-label">My Technical Stack</span>
+          <h2 class="main-title">Skills & Technologies</h2>
+          <div class="purple-bar"></div>
+        </div>
+
+        <div class="skills-card-grid">
+          <div class="skill-card">
+            <div class="skill-icon">⚡</div>
+            <h3>Vibe Coding & AI</h3>
+            <div class="pill-group">
+              <span class="pill">Vibe Coding</span>
+              <span class="pill">AI-Assisted Dev</span>
+              <span class="pill">Prompt Engineering</span>
+              <span class="pill">Rapid Prototyping</span>
+              <span class="pill">AI Debugging</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">💻</div>
+            <h3>C Programming & Logic</h3>
+            <div class="pill-group">
+              <span class="pill">C (Currently Learning)</span>
+              <span class="pill">Logic Building</span>
+              <span class="pill">Control Structures</span>
+              <span class="pill">Functions & Loops</span>
+              <span class="pill">Problem Solving</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <h3>Web Development</h3>
+            <div class="pill-group">
+              <span class="pill">HTML5</span>
+              <span class="pill">CSS3</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">Responsive Layouts</span>
+              <span class="pill">UI / UX Design</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">🚀</div>
+            <h3>Deployment & Tools</h3>
+            <div class="pill-group">
+              <span class="pill">Vercel Deployment</span>
+              <span class="pill">Git & GitHub</span>
+              <span class="pill">VS Code</span>
+              <span class="pill">AI Coding Tools</span>
+              <span class="pill">Web Hosting</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">🔌</div>
+            <h3>IoT & Hardware</h3>
+            <div class="pill-group">
+              <span class="pill">Arduino Uno</span>
+              <span class="pill">Tinkercad Circuits</span>
+              <span class="pill">Sensors & LCD</span>
+              <span class="pill">Hardware Modeling</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">✨</div>
+            <h3>Strengths & Mindset</h3>
+            <div class="pill-group">
+              <span class="pill">Rapid Execution</span>
+              <span class="pill">Curiosity-Driven</span>
+              <span class="pill">Fast Learner</span>
+              <span class="pill">Product Mindset</span>
+              <span class="pill">Vardhaman College CSE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="sub-label">My Works</span>
+          <h2 class="main-title">Featured Projects</h2>
+          <div class="purple-bar"></div>
+          <p class="section-subtext">Websites, interactive applications, and prototypes built through vibe coding and rapid development.</p>
+        </div>
+
+        <div class="project-filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="aiml">AI / ML</button>
+          <button class="filter-btn" data-filter="iot">IoT & Hardware</button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- VAYRA -->
+          <div class="proj-card" data-category="aiml">
+            <div class="proj-top">
+              <span class="proj-category">AI / ML & Smart Cities</span>
+              <span class="sdg-tag">UN SDG 9</span>
+            </div>
+            <h3 class="proj-title">VAYRA: Road Flood Risk Detection & Alternative Routing</h3>
+            <p class="proj-text">
+              Real-time road safety routing assistant. Analyzes localized elevation differences and rainfall 
+              intensity via Open-Meteo API to classify flood hazards and score safe alternative routes.
+            </p>
+            <div class="proj-tech-stack">
+              <span>Python</span>
+              <span>Gradient Boosting</span>
+              <span>Open-Meteo API</span>
+              <span>Leaflet.js</span>
+            </div>
+            <div class="proj-footer">
+              <a href="https://github.com/MUKKARAPADMATEJA/vayra" target="_blank" rel="noopener noreferrer" class="proj-action-link">
+                View GitHub Repo &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Circadian Rhythm -->
+          <div class="proj-card" data-category="aiml">
+            <div class="proj-top">
+              <span class="proj-category">Deep Learning & Health</span>
+              <span class="sdg-tag">UN SDG 3</span>
+            </div>
+            <h3 class="proj-title">Circadian Rhythm Anomaly Detection</h3>
+            <p class="proj-text">
+              Lightweight autoencoder built with PyTorch to detect sleep and circadian disruptions using 
+              Apple Watch biometric sensor data (Heart Rate & Steps) paired with a Streamlit analytics dashboard.
+            </p>
+            <div class="proj-tech-stack">
+              <span>PyTorch</span>
+              <span>Autoencoders</span>
+              <span>Streamlit</span>
+              <span>Plotly</span>
+            </div>
+            <div class="proj-footer">
+              <a href="https://github.com/MUKKARAPADMATEJA/circadian-rhythm-anomaly-detection" target="_blank" rel="noopener noreferrer" class="proj-action-link">
+                View GitHub Repo &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Smart Grid Guard -->
+          <div class="proj-card" data-category="iot">
+            <div class="proj-top">
+              <span class="proj-category">IoT & Power Systems</span>
+              <span class="badge-live">Live Simulation</span>
+            </div>
+            <h3 class="proj-title">Smart Grid Guard: Real-Time Power Monitoring</h3>
+            <p class="proj-text">
+              Arduino Uno power grid safety prototype. Features real-time voltage tracking, 16×2 I2C LCD, 
+              visual/piezo risk alerts, and automated Python serial communication to a Telegram Bot.
+            </p>
+            <div class="proj-tech-stack">
+              <span>Arduino Uno</span>
+              <span>16x2 LCD</span>
+              <span>Python Serial</span>
+              <span>Telegram Bot API</span>
+            </div>
+            <div class="proj-footer">
+              <a href="https://www.tinkercad.com/things/8YDH8Py2s8M-smart-grid-guard" target="_blank" rel="noopener noreferrer" class="proj-action-link">
+                Tinkercad Simulation &rarr;
+              </a>
+              <a href="https://github.com/MUKKARAPADMATEJA/smartgridguard" target="_blank" rel="noopener noreferrer" class="proj-action-secondary">
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Vayuhara Origin -->
+          <div class="proj-card" data-category="web">
+            <div class="proj-top">
+              <span class="proj-category">Web Platform</span>
+              <span class="badge-live">Live on Vercel</span>
+            </div>
+            <h3 class="proj-title">Vayuhara Origin Web Experience</h3>
+            <p class="proj-text">
+              Fully responsive web application showcasing sleek UI components, optimized assets, and modern interaction flows.
+            </p>
+            <div class="proj-tech-stack">
+              <span>HTML5</span>
+              <span>Modern CSS</span>
+              <span>JavaScript</span>
+              <span>Vercel</span>
+            </div>
+            <div class="proj-footer">
+              <a href="https://vayuharaorigin.vercel.app" target="_blank" rel="noopener noreferrer" class="proj-action-link">
+                Visit Website &rarr;
+              </a>
+              <a href="https://github.com/MUKKARAPADMATEJA/vayuhara-origin-website" target="_blank" rel="noopener noreferrer" class="proj-action-secondary">
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Electroverse -->
+          <div class="proj-card" data-category="web">
+            <div class="proj-top">
+              <span class="proj-category">Frontend App</span>
+              <span class="badge-live">Live on Vercel</span>
+            </div>
+            <h3 class="proj-title">Electroverse Technology Portal</h3>
+            <p class="proj-text">
+              Clean electronics and tech portal designed with modular CSS cards, crisp typography, and responsive grid layouts.
+            </p>
+            <div class="proj-tech-stack">
+              <span>JavaScript</span>
+              <span>Responsive UI</span>
+              <span>Vercel</span>
+            </div>
+            <div class="proj-footer">
+              <a href="https://electroverse-umber.vercel.app" target="_blank" rel="noopener noreferrer" class="proj-action-link">
+                Visit Website &rarr;
+              </a>
+              <a href="https://github.com/MUKKARAPADMATEJA/electroverse" target="_blank" rel="noopener noreferrer" class="proj-action-secondary">
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Aromale Cafe -->
+          <div class="proj-card" data-category="web">
+            <div class="proj-top">
+              <span class="proj-category">Interactive Showcase</span>
+              <span class="badge-live">Live on Vercel</span>
+            </div>
+            <h3 class="proj-title">Aromale Cafe Web Experience</h3>
+            <p class="proj-text">
+              Aesthetic cafe showcase with interactive digital menu items, responsive photo gallery, and reservation interface.
+            </p>
+            <div class="proj-tech-stack">
+              <span>HTML5 / CSS3</span>
+              <span>UI/UX</span>
+              <span>Vercel</span>
+            </div>
+            <div class="proj-footer">
+              <a href="https://aromalecafe.vercel.app" target="_blank" rel="noopener noreferrer" class="proj-action-link">
+                Visit Website &rarr;
+              </a>
+              <a href="https://github.com/MUKKARAPADMATEJA/aromalecafe" target="_blank" rel="noopener noreferrer" class="proj-action-secondary">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="sub-label">Verified Credentials</span>
+          <h2 class="main-title">Licenses & Certifications</h2>
+          <div class="purple-bar"></div>
+          <p class="section-subtext">Professional industry certifications from Cisco, IBM, Infosys, and HP.</p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- 1. Cisco Ethical Hacker -->
+          <div class="cert-card">
+            <div class="cert-header">
+              <div class="cert-issuer-badge">
+                <span class="cert-icon">🛡️</span>
+                <div>
+                  <span class="cert-org">Cisco Networking Academy</span>
+                  <span class="cert-date">Issued Jul 2026</span>
+                </div>
+              </div>
+              <span class="cert-tag">Ethical Hacking</span>
+            </div>
+            <h3 class="cert-title">Ethical Hacker</h3>
+            <p class="cert-desc">
+              Completed 70-hour Cisco training covering offensive security, penetration testing, vulnerability assessment & scanning, network & application exploitation, and IoT security tools.
+            </p>
+            <div class="cert-id-badge">
+              <span>ID: c1f20bda-0203-49af-b071-be8a49ada481</span>
+            </div>
+            <div class="cert-footer">
+              <a href="certificates/cisco-ethical-hacker.pdf" target="_blank" rel="noopener noreferrer" class="cert-btn primary">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                View Certificate PDF
+              </a>
+            </div>
+          </div>
+
+          <!-- 2. IBM Cybersecurity -->
+          <div class="cert-card">
+            <div class="cert-header">
+              <div class="cert-issuer-badge">
+                <span class="cert-icon">🔒</span>
+                <div>
+                  <span class="cert-org">IBM SkillsBuild</span>
+                  <span class="cert-date">Issued Jun 2025</span>
+                </div>
+              </div>
+              <span class="cert-tag">Cybersecurity</span>
+            </div>
+            <h3 class="cert-title">Getting Started with Cybersecurity</h3>
+            <p class="cert-desc">
+              Foundational training covering core cybersecurity concepts, digital asset defense, threat landscape evaluation, security principles, and defensive strategies.
+            </p>
+            <div class="cert-id-badge">
+              <span>Verified via Credly Badge</span>
+            </div>
+            <div class="cert-footer">
+              <a href="https://www.credly.com/badges/ac1c06b8-5b59-4666-80d2-73baf3e0aa61" target="_blank" rel="noopener noreferrer" class="cert-btn primary">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Verify on Credly
+              </a>
+              <a href="certificates/ibm-cybersecurity.pdf" target="_blank" rel="noopener noreferrer" class="cert-btn secondary">
+                View PDF
+              </a>
+            </div>
+          </div>
+
+          <!-- 3. Infosys IoT -->
+          <div class="cert-card">
+            <div class="cert-header">
+              <div class="cert-issuer-badge">
+                <span class="cert-icon">🔌</span>
+                <div>
+                  <span class="cert-org">Infosys Springboard</span>
+                  <span class="cert-date">Issued Apr 2025</span>
+                </div>
+              </div>
+              <span class="cert-tag">IoT Fundamentals</span>
+            </div>
+            <h3 class="cert-title">Introduction to Internet of Things</h3>
+            <p class="cert-desc">
+              Gained comprehensive foundational knowledge in IoT architecture, hardware components, sensors, microcontrollers, and modern communication protocols.
+            </p>
+            <div class="cert-id-badge">
+              <span>Verified on Wingspan</span>
+            </div>
+            <div class="cert-footer">
+              <a href="certificates/infosys-iot.pdf" target="_blank" rel="noopener noreferrer" class="cert-btn primary">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                View Certificate PDF
+              </a>
+            </div>
+          </div>
+
+          <!-- 4. HP LIFE Data Science -->
+          <div class="cert-card">
+            <div class="cert-header">
+              <div class="cert-issuer-badge">
+                <span class="cert-icon">📊</span>
+                <div>
+                  <span class="cert-org">HP LIFE Foundation</span>
+                  <span class="cert-date">Issued May 2025</span>
+                </div>
+              </div>
+              <span class="cert-tag">Data Science</span>
+            </div>
+            <h3 class="cert-title">Data Science & Analytics</h3>
+            <p class="cert-desc">
+              Comprehensive course exploring data science methodologies, analytical tools, data-driven frameworks for businesses, and quantitative decision strategies.
+            </p>
+            <div class="cert-id-badge">
+              <span>Serial: d5904172-588f-46c1-acdf-c4b1357c9142</span>
+            </div>
+            <div class="cert-footer">
+              <a href="certificates/hp-data-science.pdf" target="_blank" rel="noopener noreferrer" class="cert-btn primary">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                View Certificate PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coding Profiles Section -->
+    <section class="section coding-section" id="coding-profiles">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="sub-label">Online Judges & Competitive Platforms</span>
+          <h2 class="main-title">Coding & Competitive Profiles</h2>
+          <div class="purple-bar"></div>
+        </div>
+
+        <div class="profiles-cards-grid">
+          <!-- GitHub -->
+          <a href="https://github.com/MUKKARAPADMATEJA" target="_blank" rel="noopener noreferrer" class="judge-card">
+            <div class="judge-top">
+              <span class="judge-title">GitHub</span>
+            </div>
+            <p class="judge-user">@MUKKARAPADMATEJA</p>
+            <span class="judge-action">View Profile &rarr;</span>
+          </a>
+
+          <!-- LeetCode -->
+          <a href="https://leetcode.com/u/M_Padmateja2009/" target="_blank" rel="noopener noreferrer" class="judge-card">
+            <div class="judge-top">
+              <span class="judge-title">LeetCode</span>
+            </div>
+            <p class="judge-user">@M_Padmateja2009</p>
+            <span class="judge-action">View Profile &rarr;</span>
+          </a>
+
+          <!-- CodeChef -->
+          <a href="https://www.codechef.com/users/padmateja_28" target="_blank" rel="noopener noreferrer" class="judge-card">
+            <div class="judge-top">
+              <span class="judge-title">CodeChef</span>
+            </div>
+            <p class="judge-user">@padmateja_28</p>
+            <span class="judge-action">View Profile &rarr;</span>
+          </a>
+
+          <!-- Codeforces -->
+          <a href="https://codeforces.com/profile/padmatejamukkara" target="_blank" rel="noopener noreferrer" class="judge-card">
+            <div class="judge-top">
+              <span class="judge-title">Codeforces</span>
+            </div>
+            <p class="judge-user">@padmatejamukkara</p>
+            <span class="judge-action">View Profile &rarr;</span>
+          </a>
+
+          <!-- HackerRank -->
+          <a href="https://www.hackerrank.com/profile/mukkarapadmatej1" target="_blank" rel="noopener noreferrer" class="judge-card">
+            <div class="judge-top">
+              <span class="judge-title">HackerRank</span>
+            </div>
+            <p class="judge-user">@mukkarapadmatej1</p>
+            <span class="judge-action">View Profile &rarr;</span>
+          </a>
+
+          <!-- GeeksforGeeks -->
+          <a href="https://www.geeksforgeeks.org/user/mukkarapadmateja/" target="_blank" rel="noopener noreferrer" class="judge-card">
+            <div class="judge-top">
+              <span class="judge-title">GeeksforGeeks</span>
+            </div>
+            <p class="judge-user">@mukkarapadmateja</p>
+            <span class="judge-action">View Profile &rarr;</span>
+          </a>
+
+          <!-- InterviewBit -->
+          <a href="https://www.interviewbit.com/profile/Mukkara-Padma-Teja" target="_blank" rel="noopener noreferrer" class="judge-card">
+            <div class="judge-top">
+              <span class="judge-title">InterviewBit</span>
+            </div>
+            <p class="judge-user">@Mukkara-Padma-Teja</p>
+            <span class="judge-action">View Profile &rarr;</span>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/mukkarapadmateja/" target="_blank" rel="noopener noreferrer" class="judge-card">
+            <div class="judge-top">
+              <span class="judge-title">LinkedIn</span>
+            </div>
+            <p class="judge-user">in/mukkarapadmateja</p>
+            <span class="judge-action">View Profile &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="sub-label">Let's Connect</span>
+          <h2 class="main-title">Contact Me</h2>
+          <div class="purple-bar"></div>
+          <p class="section-subtext">Open to internships, project collaborations, and full-time opportunities.</p>
+        </div>
+
+        <div class="contact-box-grid">
+          <div class="contact-details-box">
+            <h3>Let's talk about opportunities!</h3>
+            <p>Feel free to reach out directly via email, WhatsApp, or phone.</p>
+
+            <div class="contact-item">
+              <div class="c-icon">✉️</div>
+              <div>
+                <span class="c-label">Email</span>
+                <span class="c-val"><a href="mailto:mukkarapadmateja28@gmail.com">mukkarapadmateja28@gmail.com</a></span>
+                <button class="c-copy-btn" onclick="copyContact('mukkarapadmateja28@gmail.com', this)">Copy Email</button>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="c-icon">📱</div>
+              <div>
+                <span class="c-label">Phone & WhatsApp</span>
+                <span class="c-val"><a href="tel:+919063996713">+91 9063996713</a></span>
+                <div class="c-actions-row">
+                  <a href="https://wa.me/919063996713?text=Hi%20Padma%20Teja!" target="_blank" rel="noopener noreferrer" class="c-wa-btn">WhatsApp Message</a>
+                  <button class="c-copy-btn" onclick="copyContact('+919063996713', this)">Copy Number</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="c-icon">💼</div>
+              <div>
+                <span class="c-label">LinkedIn</span>
+                <span class="c-val"><a href="https://www.linkedin.com/in/mukkarapadmateja/" target="_blank" rel="noopener noreferrer">linkedin.com/in/mukkarapadmateja</a></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-box">
+            <form id="portfolioContactForm" onsubmit="handleContactSubmit(event)">
+              <div class="form-row">
+                <label for="cName">Your Name</label>
+                <input type="text" id="cName" required placeholder="John Doe">
+              </div>
+              <div class="form-row">
+                <label for="cEmail">Your Email</label>
+                <input type="email" id="cEmail" required placeholder="john@company.com">
+              </div>
+              <div class="form-row">
+                <label for="cSubject">Subject</label>
+                <input type="text" id="cSubject" required placeholder="Internship Opportunity / Project Inquiry">
+              </div>
+              <div class="form-row">
+                <label for="cMessage">Message</label>
+                <textarea id="cMessage" rows="4" required placeholder="Hi Padma Teja, we came across your portfolio..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-pill-purple btn-full">Send Message</button>
+              <div id="contactFeedback" class="contact-feedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">Teja<span class="dot">.</span></div>
+      <p class="footer-text">Mukkara Padma Teja &bull; Computer Science & Engineering Undergraduate</p>
+      <p class="footer-sub">Vardhaman College of Engineering, Hyderabad &bull; &copy; 2026 All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
