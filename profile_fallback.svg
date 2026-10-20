@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f3ff"/>
+      <stop offset="100%" stop-color="#ede9fe"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0ac69"/>
+      <stop offset="100%" stop-color="#c68642"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" rx="24" fill="url(#bgGrad)"/>
+  <circle cx="200" cy="180" r="140" fill="#ede9fe" opacity="0.6"/>
+  <!-- Body/Suit -->
+  <path d="M70 500 C70 380 120 330 200 330 C280 330 330 380 330 500 Z" fill="url(#purpleGrad)"/>
+  <!-- Shirt -->
+  <polygon points="170,330 230,330 200,420" fill="#ffffff"/>
+  <!-- Neck -->
+  <rect x="175" y="270" width="50" height="70" rx="10" fill="url(#skinGrad)"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="210" rx="65" ry="80" fill="url(#skinGrad)"/>
+  <!-- Hair -->
+  <path d="M130 190 C130 120 180 100 200 100 C230 100 270 120 270 180 C260 140 220 120 180 130 C150 140 140 160 130 190 Z" fill="#2d1d14"/>
+  <!-- Glasses -->
+  <circle cx="175" cy="205" r="22" fill="none" stroke="#2d1d14" stroke-width="4"/>
+  <circle cx="225" cy="205" r="22" fill="none" stroke="#2d1d14" stroke-width="4"/>
+  <line x1="197" y1="205" x2="203" y2="205" stroke="#2d1d14" stroke-width="4"/>
+  <!-- Smile -->
+  <path d="M180 250 Q200 270 220 250" fill="none" stroke="#873e23" stroke-width="3" stroke-linecap="round"/>
+</svg>
